@@ -1,0 +1,9 @@
+<div class="item-page">
+  <a href="/professores">Voltar</a>
+  <h1>{{professors.nome}}</h1>
+  <p>Resumo: {{professors.resumo}}</p>
+  <img src="/img/curso/{{professors.imagem}}" alt="{{professors.nome}}">
+  <form action="/professores/remove/{{professors._id}}" method="POST">
+    <input type="submit" class="button" value="Excluir">
+  </form>
+</div>

@@ -1,0 +1,15 @@
+<h1>Todos os Professores</h1>
+<a href="/professores/create" class="button">Novo</a>
+<div class="items">
+  {{#each professors}}
+    <div class="item">
+      <img src="/img/curso/{{this.imagem}}" alt="{{this.nome}}">
+      <h3>{{this.nome}}</h3>
+      <p>Resumo: {{this.resumo}}</p>
+      <div class="actions">
+        <a href="/professores/{{this._id}}" class="button">Detalhes</a>
+        <a href="/professores/edit/{{this._id}}" class="button">Editar</a>
+      </div>
+    </div>
+  {{/each}}
+</div>
