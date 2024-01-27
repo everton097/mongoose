@@ -3,7 +3,7 @@ Projeto da matéria de Programação para Internet II onde visa conectar uma apl
 
 Uma landing page para uma instituição de ensino que apresenta:
 * **Banners em carrossel:** dar destaque em alguma notícia ou curso.
-<div align="center">
+<div align="start">
   <img src="https://github.com/everton097/mongoose/blob/main/public/img/carossel.jpeg" width="550" alt="carossel-IMG" />
 </div>
 
