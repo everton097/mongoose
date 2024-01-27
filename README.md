@@ -21,3 +21,15 @@ Um sistema de gerenciamento de conteúdo (CMS) público sem necessidade de login
 <div align="left">
   <img src="https://github.com/everton097/mongoose/blob/main/public/img/CMR.png" width="550" alt="carossel-IMG" />
 </div>
+
+### Iniciar Aplicação
+No terminal rodar os comandos:
+```
+npm i
+npm start
+```
+No navegador acessar:
+```
+Landing Page(SPA) - http://localhost:3000/
+CRM - http://localhost:3000/cursos ou http://localhost:3000/professores/
+```
